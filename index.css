@@ -10,11 +10,51 @@ canvas {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100vw;
   background-color: black;
 }
 
-div {
+#main-menu {
   position: fixed;
-  bottom: 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80ch;
+  aspect-ratio: 1 / 1;
+  z-index: 1;
+  background-color: white;
+  text-align: center;
+}
+
+.world-list-item{
+  border-bottom: 1px solid black;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.cam {
+  height: 200px;
+  width: 200px;
+  z-index: 2;
+  background-color: rgb(32, 32, 32);
+  transform: initial;
+}
+
+/* #cam1 {
+  left: 50px;
+  top: 10px;
+} */
+
+#cam2 {
+  left: 300px;
+  top: 10px;
+}
+
+#cam3 {
+  left: 550px;
+  top: 10px;
+}
+
+#cam4 {
+  left: 800px;
+  top: 10px;
 }

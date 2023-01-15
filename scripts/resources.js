@@ -18,3 +18,10 @@ export class Plane {
 		this.height = height;
 	}
 }
+
+export class Sprite {
+	constructor(resourcePath) {
+		this.asset = new Image();
+		this.asset.src = resourcePath;
+	}
+}
